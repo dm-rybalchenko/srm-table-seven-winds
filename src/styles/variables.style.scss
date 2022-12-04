@@ -1,0 +1,47 @@
+// === MIXINS ===
+@mixin roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+// === / MIXINS ===
+
+// ===  FUNCTIONS ===
+@function strip-unit($num) {
+  $one-unit: $num * 0 + 1;
+
+  @return calc($num / $one-unit);
+}
+
+@function rem($num) {
+  @return (calc(strip-unit($num) / 16)) * 1rem;
+}
+
+// === / FUNCTIONS ===
+
+// === VARIABLES ===
+// common base
+$base: rem(4px);
+
+// font waights
+$fw-regular: 400;
+
+// font sizes
+$fz-s: rem(10px);
+$fz-m: rem(14px);
+$fz-l: rem(18px);
+
+// common transition
+$transition-s: 0.3s;
+$transition-m: 0.5s;
+
+// Primary color
+$color-primary-100: #414144;
+$color-primary-200: #27272a;
+$color-primary-300: #202124;
+
+// Secondary color
+$color-secondary-100: #fff;
+$color-secondary-200: #c6c6c6;
+$color-secondary-300: #a1a1aa;
+
+// === / VARIABLES ===

@@ -1,0 +1,10 @@
+.wrapper {
+  @include roboto;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: $fz-m;
+  color: $color-secondary-300;
+  background-color: $color-primary-200;
+}

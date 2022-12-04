@@ -1,0 +1,28 @@
+.header {
+  border-bottom: 1px solid $color-primary-100;
+
+  &__nav {
+    position: relative;
+    display: flex;
+    gap: $base * 5;
+    height: $base * 11;
+    padding: 0 $base * 5;
+  }
+
+  &__nav-item {
+    display: flex;
+    align-items: center;
+    min-width: $base * 6;
+
+    &:active,
+    &:hover,
+    &.active {
+      color: $color-secondary-100;
+      border-bottom: 2px solid $color-secondary-100;
+
+      path {
+        fill: $color-secondary-100;
+      }
+    }
+  }
+}

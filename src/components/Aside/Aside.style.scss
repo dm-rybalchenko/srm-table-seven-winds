@@ -1,0 +1,52 @@
+.aside {
+  width: $base * 58;
+  border-right: 1px solid $color-primary-100;
+
+  &__header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: $base * 11;
+    padding-left: $base * 5;
+    border-bottom: 1px solid $color-primary-100;
+
+    &::after {
+      position: absolute;
+      right: $base * 2;
+      display: block;
+      width: $base * 6;
+      height: $base * 6;
+      content: '';
+      background: url('../img/aside/header-icon.svg') 50% no-repeat;
+    }
+  }
+
+  &__header-container {
+  }
+  &__header-title {
+  }
+
+  &__header-descr {
+    font-size: $fz-s;
+  }
+
+  &__nav {
+  }
+
+  &__nav-items {
+    color: $color-secondary-100;
+  }
+
+  &__nav-item {
+    height: $base * 8;
+    padding-left: $base * 14;
+    line-height: $base * 8;
+    background: url('../img/aside/aside-item.svg') $base * 5 50% no-repeat;
+
+    &:hover,
+    &:active,
+    &.active {
+      background-color: $color-secondary-300;
+    }
+  }
+}
