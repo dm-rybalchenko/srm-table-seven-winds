@@ -1,3 +1,27 @@
+# SRM system table for Seven Winds company
+
+* Creating/removing/editing entity rows with expenses
+
+* Rows are nested
+
+* When adding/removing/editing parents and children, the data in the table is recalculated on the server side and updated in the table
+
+* Creating and deleting new rows when clicking on popup icons
+
+* Editing mode is activated by double clicking on a row and it is saved by pressing Enter in one of the input fields
+
+[Link to deployed application](http://f0750288.xsph.ru/)
+
+## Screenshots
+
+![Screenshot-app-srm-table](/public/Screenshot-app-srm-table.jpg)
+
+![Screenshot-app-srm-table-editing](/public/Screenshot-app-srm-table-editing.jpg)
+
+![Screenshot-app-srm-table-icons](/public/Screenshot-app-srm-table-icons.jpg)
+
+*At this stage, only the PC version has been implemented.*
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
