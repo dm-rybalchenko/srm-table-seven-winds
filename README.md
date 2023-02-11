@@ -10,7 +10,7 @@
 
 * Editing mode is activated by double clicking on a row and it is saved by pressing Enter in one of the input fields
 
-[Link to deployed application](http://f0750288.xsph.ru/)
+[Link to deployed application](http://f0777878.xsph.ru/)
 
 ## Screenshots
 
